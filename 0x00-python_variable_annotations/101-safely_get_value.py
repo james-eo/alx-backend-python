@@ -9,13 +9,8 @@ from typing import Any, Mapping, TypeVar, Union
 T = TypeVar('T')
 
 
-def safely_get_value(
-    dct: Mapping[Any, Any],
-    key: Any,
-    default: Union[T, None] = None
-) -> Union[Any, T]:
-    """
-    Safely gets a value from a dictionary.
+def safely_get_value(dct: Mapping[Any, Any], key: Any, default: Union[T, None] = None) -> Union[Any, T]:
+    """Safely gets a value from a dictionary.
 
     Args:
         dct (Mapping[Any, Any]): The dictionary.
