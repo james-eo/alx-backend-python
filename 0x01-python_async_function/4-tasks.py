@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+This module provides an asynchronous routine to
+execute multiple tasks concurrently.
+"""
 import asyncio
 from typing import List
 
