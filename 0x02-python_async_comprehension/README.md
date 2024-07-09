@@ -8,15 +8,15 @@
 
 **Read or watch:**
 
-	- [PEP 530 – Asynchronous Comprehensions](https://peps.python.org/pep-0530/)  
-	- [What’s New in Python: Asynchronous Comprehensions / Generators](https://www.blog.pythonlibrary.org/2017/02/14/whats-new-in-python-asynchronous-comprehensions-generators/)  
-	- [Type-hints for generators](https://stackoverflow.com/questions/42531143/how-to-type-hint-a-generator-in-python-3)
+- [PEP 530 – Asynchronous Comprehensions](https://peps.python.org/pep-0530/)  
+- [What’s New in Python: Asynchronous Comprehensions / Generators](https://www.blog.pythonlibrary.org/2017/02/14/whats-new-in-python-asynchronous-comprehensions-generators/)  
+- [Type-hints for generators](https://stackoverflow.com/questions/42531143/how-to-type-hint-a-generator-in-python-3)
 
 # Learning Objectives
 
-	+ How to write an asynchronous generator  
-	+ How to use async comprehensions  
-	+ How to type-annotate generators
++ How to write an asynchronous generator  
++ How to use async comprehensions  
++ How to type-annotate generators
 
 # Tasks
 
@@ -50,7 +50,7 @@ bob@dylan:~$ ./0-main.py
 
 Import ***async_generator*** from the previous task and then write a coroutine called ***async_comprehension*** that takes no arguments.
 
-The coroutine will collect 10 random numbers using an async comprehensing over a***sync_generator***, then return the 10 random numbers.
+The coroutine will collect 10 random numbers using an async comprehensing over ***async_generator***, then return the 10 random numbers.
 
 ```
 bob@dylan:~$ cat 1-main.py
